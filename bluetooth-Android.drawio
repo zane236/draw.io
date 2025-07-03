@@ -1,9 +1,62 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="26.3.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="zDsPpkPJ3LKyH3Z5pE1_">
-    <mxGraphModel>
+    <mxGraphModel dx="1042" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-2" value="BT_IF Task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-3" value="bt_jni_workqueue_thread" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="295" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-4" value="btif_a2dp_sink_worker_thread" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="295" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="e3imeY2N8iYgfg-wcPUl-5" target="e3imeY2N8iYgfg-wcPUl-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="415" />
+              <mxPoint x="240" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-5" value="BTU Task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="440" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-6" value="bt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="480" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-8" value="bt_workqueue_thread" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="495" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=none;curved=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="e3imeY2N8iYgfg-wcPUl-11" target="e3imeY2N8iYgfg-wcPUl-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="580" />
+              <mxPoint x="270" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-11" value="HCI Task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="640" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-12" value="bt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="680" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-13" value="message_loop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="695" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-15" value="btu_hci_msg_queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="590" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e3imeY2N8iYgfg-wcPUl-16" value="btu_bta_msg_queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="390" width="130" height="10" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
